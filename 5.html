@@ -1,0 +1,20 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>GET | POST 传参</title>
+	</head>
+	<body>
+	
+	<a href="5.php?date=2017&no=232">通过 URL 传送数据</a>
+	<!-- form 不指定 method，默认为 get 方式-->
+	<form action="5.php">
+		<input type="text" name="name" placeholder="请输入内容" />
+		
+		<input type="hidden" name="cart_id" value="12334" />
+		
+		<input type="submit" value="提交" />
+	</form>
+	</body>
+</html>
